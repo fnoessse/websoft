@@ -8,5 +8,24 @@ html {
 body {
     margin: 8px auto;
     background: #fff;
-    width: 700px;
+    max-width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
 }
+.feature{
+    background-color: beige;
+    max-width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    min-height: 1em;
+    border: 3px groove;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+
+
+
+
