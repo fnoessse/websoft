@@ -4,7 +4,7 @@
 
 Course material for "Software Development for the Web", nicked as "websoft".
 
-[Here is a link to my current publication on github pages for this course.(https://fnoessse.github.io/websoft/index.html)]
+[Here is a link to my current publication on github pages for this course](https://fnoessse.github.io/websoft/index.html)
 
 
 Visit the [original course repo for websoft](https://github.com/Webbprogrammering/websoft) (not your forked version).
