@@ -1,6 +1,7 @@
 /*
  * Comments are written as C++ style. 
  */
+
 html {
     overflow-y: scroll;
 }
@@ -9,23 +10,148 @@ body {
     margin: 8px auto;
     background: #fff;
     max-width: 100%;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 100px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    margin-top: 50;
 }
-.feature{
+
+a {
+    text-decoration: none;
+}
+
+.feature {
     background-color: beige;
-    max-width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    min-height: 1em;
-    border: 3px groove;
-    padding-left: 2em;
-    padding-right: 2em;
+    min-width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-height: 1px;
+    border: 1px groove;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    font-size: x-large;
+}
+
+ul>li {
+    transition: transform .2s;
+    display: inline-block;
+}
+
+ul#items li:hover {
+    transform: scale(1.2);
+}
+
+.duck {
+    background-image: url(../../../s03/ducks/myDuck.png);
+    width: 128px;
+    height: 128px;
+    position: fixed;
+    top: 12em;
+    left: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    color: black;
     text-align: center;
 }
 
+.table {
+    padding-top: 15em;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#tabben {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+    border-style: groove;
+    outline: black solid 1px;
+    border-color: black;
+    background-color: rgb(211, 211, 211);
+}
 
+#th {
+    /* text-align: left; */
+    /* outline: black solid 2px; */
+}
 
+#td {
+    outline: black solid 1px;
+    padding: 8px;
+    background-color: white;
+}
 
+#td:hover {
+    outline: black solid 3px;
+    background-color: rgb(179, 179, 179);
+    /* background-color: chartreuse; */
+}
+
+.fetBTN {
+    text-align: center;
+    margin-left: -10%;
+}
+
+.button {
+    position: absolute;
+    top: 6em;
+    font-size: x-large;
+    transition: transform .2s;
+    display: inline-block;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.select {
+    position: absolute;
+    top: 6em;
+    font-size: large;
+}
+
+.FLAG {
+    opacity: 0;
+    margin-right: 1em;
+    height: 150px;
+    width: 200px;
+    margin-left: 1em;
+    outline: black solid 1px;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.Sweden {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, blue 45%, yellow 45%, yellow 55%, blue 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, blue 45%, yellow 45%, yellow 55%, blue 55%);
+}
+
+.Denmark {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, red 45%, white 45%, white 55%, red 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, red 45%, white 45%, white 55%, red 55%);
+}
+
+.Skane {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, red 45%, yellow 45%, yellow 55%, red 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, red 45%, yellow 45%, yellow 55%, red 55%);
+}
+
+.Finland {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, blue 25%, blue 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, white 45%, blue 45%, blue 55%, white 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, blue 25%, blue 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, white 45%, blue 45%, blue 55%, white 55%);
+}
+
+.links {
+    font-size: x-large;
+    margin-right: 80px;
+    padding-left: 2em;
+}
