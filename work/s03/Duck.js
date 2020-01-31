@@ -36,7 +36,7 @@
 
         if (direction) {
             element.style.left = element.offsetLeft + speed + "px";
-            if (element.offsetLeft > window.innerWidth - 128) {
+            if (element.offsetLeft > window.innerWidth - (128 + speed)) {
                 direction = false;
                 speed = Math.floor(Math.random() * 5) + 1;
             }

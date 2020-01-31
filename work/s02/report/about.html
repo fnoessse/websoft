@@ -11,7 +11,7 @@
 <body>
 
 
-    <header class="feature">
+    <header class="feature fixed">
         <nav>
             <ul id="items">
                 <li><a href="me.html">Me</a></li> |
@@ -26,13 +26,13 @@
 
 
 
-    <article>
+    <article class="report">
 
         <h1>About</h1>
 
         <p>This website is part of the course websoft <a href="https://www.hkr.se/kurs/DA377B/kursplan">DA377B @ HKR</a></p>
 
-        <p><img src="../../s01/images/doctors.png" width="500" alt="Me on an image"></p>
+        <p><img src="../../s01/images/debug.jpg" width="500" alt="Me on an image" class="center"></p>
 
         <p>Provide some insights on the course this far or exaplin a bit more about this website?</p>
 
@@ -48,12 +48,19 @@
 
     </article>
 
-    <footer>
+    <footer class="footer fixed">
         <hr>
         <p>Copyright (C) 2020 Oscar Odelstav @ HKR, Updated 2020-01-23.
             <a href="mailto:oscar.eriksson_odelstav0012@stud.hkr.se">oscar.eriksson_odelstav0012@stud.hkr.se</a>
         </p>
     </footer>
+
+    <script type='text/javascript' src='../../javascript/Auz-Bug-92fb1fb/bug-min.js'></script>
+    <script type='text/javascript'>
+        new BugController({});
+
+        new SpiderController({});
+    </script>
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>

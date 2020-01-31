@@ -8,54 +8,61 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
-<header class="feature">
-    <nav>
-        <ul id="items">
-            <li><a href="../s02/report/me.html">Me</a></li> |
-            <li><a href="../s02/report/report.html">Report</a></li> |
-            <li><a href="../s02/report/about.html">About</a></li> |
-            <li><a href="../s01/index.html">Index</a></li> |
-            <li><a href="schools.html">Schools</a></li> |
-            <li><a href="flag.html">Flags</a></li>
-        </ul>
-    </nav>
-</header>
 
-<body>
+
+<body class="body">
+    <header class="feature fixed">
+        <nav>
+            <ul id="items">
+                <li><a href="../s02/report/me.html">Me</a></li> |
+                <li><a href="../s02/report/report.html">Report</a></li> |
+                <li><a href="../s02/report/about.html">About</a></li> |
+                <li><a href="../s01/index.html">Index</a></li> |
+                <li><a href="schools.html">Schools</a></li> |
+                <li><a href="flag.html">Flags</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div id="duck" class="duck"></div>
-    <ul>
-        <li class="links"><a href="#" onclick="toggle_visibility('foo');">Denmark</a</li>
-        <li class="links"><a href="#" onclick="toggle_visibility('foo2');">Sweden</a></li>
-        <li class="links"><a href="#" onclick="toggle_visibility('foo3');">Finland</a></li>
-        <li class="links"><a href="#" onclick="toggle_visibility('foo4');">Skane</a></li>
-    </ul>
 
-    <ul>
-        <li onclick="toggle_visibility('foo');">
-            <div class="FLAG Denmark" id="foo" style="display:block"></div>
-        </li>
-        <li onclick="toggle_visibility('foo2');">
-            <div class="FLAG Sweden" id="foo2" style="display:block"></div>
-        </li>
-        <li onclick="toggle_visibility('foo3');">
-            <div class="FLAG Finland" id="foo3" style="display:block"></div>
-        </li>
-        <li onclick="toggle_visibility('foo4');">
-            <div class="FLAG Skane" id="foo4" style="display:block"></div>
-        </li>
-    </ul>
+    <div class="select">
+
+        <ul>
+            <li class="links"><a href="#" onclick="toggle_visibility('foo');">Denmark</a</li>
+            <li class="links"><a href="#" onclick="toggle_visibility('foo2');">Sweden</a></li>
+            <li class="links"><a href="#" onclick="toggle_visibility('foo3');">Finland</a></li>
+            <li class="links"><a href="#" onclick="toggle_visibility('foo4');">Skane</a></li>
+        </ul>
+
+
+        <ul>
+            <li onclick="toggle_visibility('foo');">
+                <div class="FLAG Denmark" id="foo" style="display:block"></div>
+            </li>
+            <li onclick="toggle_visibility('foo2');">
+                <div class="FLAG Sweden" id="foo2" style="display:block"></div>
+            </li>
+            <li onclick="toggle_visibility('foo3');">
+                <div class="FLAG Finland" id="foo3" style="display:block"></div>
+            </li>
+            <li onclick="toggle_visibility('foo4');">
+                <div class="FLAG Skane" id="foo4" style="display:block"></div>
+            </li>
+        </ul>
+    </div>
 
     <script src="Duck.js"></script>
     <script type="text/javascript" src="flag.js"></script>
 
 </body>
 
-
-<footer class="footer">
+<footer class="footer fixed">
     <hr>
     <p>Copyright (C) 2020 Oscar Odelstav @ HKR, Updated 2020-01-23.
         <a href="mailto:oscar.eriksson_odelstav0012@stud.hkr.se">oscar.eriksson_odelstav0012@stud.hkr.se</a>
     </p>
 </footer>
+
 
 </html>

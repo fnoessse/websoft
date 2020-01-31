@@ -8,13 +8,13 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
-<body>
+<body class="body">
 
     <!--
 Comments are written as HTML style.
 -->
 
-    <header class="feature">
+    <header class="feature fixed">
         <nav>
             <ul id="items">
                 <li><a href="me.html">Me</a></li> |
@@ -29,11 +29,13 @@ Comments are written as HTML style.
 
 
 
-    <article>
+    <article class="report">
 
         <h1>Presentation of my self in the course DA377B Programvaruutveckling för webben</h1>
 
-        <p><img src="../../s01/images/profilbild.jpg" width="500" alt="Me on an image"></p>
+        <div id="duck" class="duck"></div>
+
+        <p><img src="../../s01/images/profilbild.jpg" width="500" alt="Me on an image" class="center"></p>
 
         <p>Hello there, my name is Oscar Odelstav. Born in Kristianstad but mostly raised in Broby/Knislinge in the small county of östra göinge just outside of Kristinastad. In my youth my main activity was skateboarding although i exercised some thai boxing
             as well. Secondary me and my friends started a small gaming LAN organisation, this was back in the days when internet was running on 56k modems for most people. Im one of the few student who mainly use Linux as an operatingsystem for my computer.
@@ -46,9 +48,11 @@ Comments are written as HTML style.
             friends work in i hope to develope a software that they can use in their work and increases the efficiency of their work.
         </p>
 
+        <div></div>
+
     </article>
 
-    <footer>
+    <footer class="footer fixed">
         <hr>
         <p>Copyright (C) 2020 Oscar Odelstav @ HKR, Updated 2020-01-23.
             <a href="mailto:oscar.eriksson_odelstav0012@stud.hkr.se">oscar.eriksson_odelstav0012@stud.hkr.se</a>
@@ -57,6 +61,7 @@ Comments are written as HTML style.
 
 
 
+    <script src="../../s03/Duck.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

@@ -4,15 +4,28 @@
 
 html {
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body {
     margin: 8px auto;
     background: #fff;
     max-width: 100%;
+    min-height: auto;
+    margin-bottom: 2cm;
     /* margin-left: 80px;
     margin-right: 80px; */
-    margin-top: 50;
+}
+
+.report {
+    padding: 2em;
+    min-height: 2em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -32,6 +45,10 @@ a {
     font-size: x-large;
 }
 
+.fixed {
+    position: fixed;
+}
+
 ul>li {
     transition: transform .2s;
     display: inline-block;
@@ -45,19 +62,20 @@ ul#items li:hover {
     background-image: url(../../../s03/ducks/myDuck.png);
     width: 128px;
     height: 128px;
-    position: fixed;
+    position: absolute;
     top: 12em;
     left: 20px;
+    z-index: 1;
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: beige;
     color: black;
     text-align: center;
+    margin-top: auto;
 }
 
 .table {
@@ -115,6 +133,11 @@ ul#items li:hover {
     position: absolute;
     top: 6em;
     font-size: large;
+}
+
+.flags {
+    margin-top: 100px;
+    z-index: 2;
 }
 
 .FLAG {
