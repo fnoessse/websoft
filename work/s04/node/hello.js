@@ -6,7 +6,7 @@
 function main() {
     console.log("Hello World");
 
-    for (let i=0; i < 9; i++) {
+    for (let i = 0; i < 9; i++) {
         console.log(i);
     }
 

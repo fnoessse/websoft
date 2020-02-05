@@ -3,26 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Report from the course sections</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>report</title>
+    <link rel="stylesheet" href="../hest/websoft/work/s02/report/css/style.css">
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body class="body">
 
-    <header class="feature fixed">
-        <nav>
-            <ul id="items">
-                <li><a href="me.html">Me</a></li> |
-                <li><a href="report.html">Report</a></li> |
-                <li><a href="about.html">About</a></li> |
-                <li><a href="index.html">Index</a></li> |
-                <li><a href="schools.html">Schools</a></li> |
-                <li><a href="flag.html">Flags</a></li>
-            </ul>
-        </nav>
-    </header>
+    
 
+    <?php include 'view/header.php';?>
 
 
     <article class="report">
@@ -149,7 +139,7 @@
 
 
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="Duck.js"></script>
+    <script src="../../s03/Duck.js"></script>
 </body>
 
 </html>

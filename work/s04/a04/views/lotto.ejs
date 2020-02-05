@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About this site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body class="body">
+
+    <h1>Lotto row</h1>
+    <p>The row was:
+        <%= data %>
+    </p>
+
+    <p>Your row was:
+        <%= myData %>
+    </p>
+
+
+
+    <table class="lotto">
+        <% 
+        var total = 1;
+        for(let i=1;i<8; i++){%>
+            <tr>
+                <% for(let j=1; j<6; j++){%>
+                    <td class="lottoData" <% if(match.includes((total))){%>
+                        bgcolor="green"
+                        <%}else if(data.includes((total))){%>
+                            bgcolor="yellow"
+                            <%}else if(myData.includes((total.toString()))){%>
+                                bgcolor="red"
+                                <% } %>
+                                    }%>>
+                                    <%= total, %>
+                    </td>
+                    <%total++;} %>
+            </tr>
+
+            <%}%>
+    </table>
+
+
+    <p>
+        Amount of correct hits:
+        <%=hits %>
+    </p>
+
+
+</body>
+
+</html>
