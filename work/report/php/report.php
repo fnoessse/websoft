@@ -4,16 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>report</title>
-    <link rel="stylesheet" href="../hest/websoft/work/s02/report/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body class="body">
 
-    
-
     <?php include 'view/header.php';?>
-
 
     <article class="report">
 
@@ -94,7 +91,26 @@
 
         <section>
             <h2>S04</h2>
-            <p>Here is the text for this section.</p>
+            <p>Tell me about your previous experience on node/npm or any equal programming tools.</p>
+            <p>I have no previous experience of node or npm. Closest work related to node/npm is developing restful server in java. It has some similarities in terms of restful of course but a lot of diffrences as well. It has been very a very useful experience.</p>
+            <p>How do you feel about working with JavaScript, Node and Express?</p>
+            <p>I feel quite good actually. It has been some up and downs getting acquainted with js but i'm starting to get a hang of it. Same goes for node and express. I still need some practice with the structure part but for the most part i think i understand
+                how it works. I quite like express and working with node as quite a few configuration parts are a lot simpler than in pure java.</p>
+            <p>Explain how you did take on the coding assignment, did you have a plan and did it work?</p>
+            <p>I approached the assignement step by step according to the assignement description. Working from the examples that helped a lot. Working from the examples i then refactored it with adding and deleting parts to make it work for my intetions.
+                As i have no prior experience with this part i continued with trial and error and solving bugs by reading error outputs in the browser. I suppose i had somewhat of a plan from reading the assignement or an image of what i was trying to
+                acheive. With that in mind i jumped head first into the assignment to get started without overthinking to get more familliar with both javascript and node/express. It was a nice experience getting this to work on linux as installation
+                and configuration was an additional step in order to get this to work.
+            </p>
+            <p>What grade did you aim for and was it a difficult level?</p>
+            <p>I amied for grade 5 and think i gave it an extra effort to present the result in a nice way. Only thing remaining so far is to refactor out the logic for lotto to a separate module, which i will do if i have the time.</p>
+            <p>What is your TIL for this course section?</p>
+            <p>I have learned a lot for this part. Quite a few new things working with javascript aquiring more skills in how to program with js. I have learned the basics of setting up node/express restful server as well as working with ejs for presenting
+                a site and mixing js with html. Furthermore i learned how to utilize query strings in the browser and handle them in express with parsing in js and using the array.include for finding a match between generated data to query data. Some
+                small error handling for only ouputing data if a query is actually sent and so on. It was a nice experience utilizing json responses from server to express even though i did not develop the usage further in this assignement. I learned
+                a few new skills in using html and generating a table dynamicly with setting background colors depending on input in order to get a nice output. I realized that my directory structure is not according to instructions as i misinterpreted
+                how the strucure should be. As a result i suppose i have a rather large refactoring to do. I will however ask if this is actually required as i consider it to be a lot of work that will mean less time to spend on actual assignements.
+            </p>
         </section>
 
         <section>
@@ -127,19 +143,13 @@
             <p>Here is the text for this section.</p>
         </section>
 
-        <footer class="footer fixed">
-            <hr>
-            <p>Copyright (C) 2020 Oscar Odelstav @ HKR, Updated 2020-01-23.
-                <a href="mailto:oscar.eriksson_odelstav0012@stud.hkr.se">oscar.eriksson_odelstav0012@stud.hkr.se</a>
-            </p>
-        </footer>
+        <?php include 'view/footer.php';?>
 
     </article>
 
 
-
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="../../s03/Duck.js"></script>
+    <script src="js/Duck.js"></script>
 </body>
 
 </html>

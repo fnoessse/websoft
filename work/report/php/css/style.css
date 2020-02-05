@@ -1,0 +1,225 @@
+/*
+ * Comments are written as C++ style. 
+ */
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 8px auto;
+    background: #fff;
+    max-width: 100%;
+    min-height: auto;
+    margin-bottom: 2cm;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+}
+
+.report {
+    padding: 2em;
+    min-height: 2em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+.feature {
+    background-color: beige;
+    min-width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-height: 1px;
+    border: 1px groove;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    font-size: x-large;
+}
+
+.fixed {
+    position: fixed;
+}
+
+ul>li {
+    transition: transform .2s;
+    display: inline-block;
+}
+
+ul#items li:hover {
+    transform: scale(1.2);
+}
+
+.duck {
+    background-image: url('../ducks/myDuck.png');
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 12em;
+    left: 20px;
+    z-index: 1;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    margin-top: auto;
+}
+
+.table {
+    padding-top: 15em;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabben {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+    border-style: groove;
+    outline: black solid 1px;
+    border-color: black;
+    background-color: rgb(211, 211, 211);
+}
+
+#th {
+    /* text-align: left; */
+    /* outline: black solid 2px; */
+}
+
+#td {
+    outline: black solid 1px;
+    padding: 8px;
+    background-color: white;
+}
+
+#td:hover {
+    outline: black solid 3px;
+    background-color: rgbstyle="margin-left: auto; margin-right: auto;"(179, 179, 179);
+    background-color: rgb(170, 170, 170);
+}
+
+.fetBTN {
+    text-align: center;
+    margin-left: -10%;
+}
+
+.button {
+    position: absolute;
+    top: 6em;
+    font-size: x-large;
+    transition: transform .2s;
+    display: inline-block;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.select {
+    position: absolute;
+    top: 6em;
+    font-size: large;
+}
+
+.flags {
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.FLAG {
+    opacity: 0;
+    margin-right: 1em;
+    height: 150px;
+    width: 200px;
+    margin-left: 1em;
+    outline: black solid 1px;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.Sweden {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, blue 45%, yellow 45%, yellow 55%, blue 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, blue 45%, yellow 45%, yellow 55%, blue 55%);
+}
+
+.Denmark {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, red 45%, white 45%, white 55%, red 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, red 45%, white 45%, white 55%, red 55%);
+}
+
+.Skane {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, red 45%, yellow 45%, yellow 55%, red 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, yellow 25%, yellow 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, red 45%, yellow 45%, yellow 55%, red 55%);
+}
+
+.Finland {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, blue 25%, blue 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, white 45%, blue 45%, blue 55%, white 55%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, blue 25%, blue 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, white 45%, blue 45%, blue 55%, white 55%);
+}
+
+.links {
+    font-size: x-large;
+    margin-right: 80px;
+    padding-left: 2em;
+}
+
+.lotto {
+    border-collapse: collapse;
+}
+
+.lottoData {
+    border: 2px solid;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.search {
+    border-collapse: collapse;
+    border: 1px solid;
+    font-size: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchTh {
+    border: 1px solid;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+}
+
+.searchTd {
+    text-align: left;
+    border: 1px solid;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+}
+
+.searchForm {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6em;
+    padding-bottom: 1em;
+}
