@@ -1,17 +1,9 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>About this site</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
-
-<body>
-
-<?php 
+<?php
+session_start();
+$pageTitle = 'search';
+include_once 'view/head.php';
 include 'view/header.php';
+include 'view/crudHeader.php';
 require "sql/config.php";
 require "sql/functions.php";
 
@@ -39,6 +31,7 @@ EOD;
     // Get the results as an array with column names as array keys
     $res = $stmt->fetchAll();
 }?>
+<body>
 
 
 <form class="searchForm">

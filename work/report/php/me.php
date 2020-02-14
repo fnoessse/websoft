@@ -1,16 +1,10 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Presentation of my self in the course XXX</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<?php
+session_start();
+$pageTitle = 'me';
+include_once 'view/head.php';
+include 'view/header.php';?>
 
 <body class="body">
-
-<?php include 'view/header.php';?>
 
     <article class="report">
 

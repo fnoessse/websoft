@@ -1,21 +1,8 @@
-<!-- 
-
-
-    
- -->
-
-
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>About this site</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
-
-<?php include 'view/header.php';?>
+<?php
+session_start();
+$pageTitle = 'schools';
+include_once 'view/head.php';
+include 'view/header.php';?>
 
 <body class="body">
 

@@ -34,6 +34,7 @@ a {
 }
 
 .feature {
+    /* height: max-content; */
     background-color: beige;
     min-width: 100%;
     padding-top: 1px;
@@ -48,6 +49,19 @@ a {
 
 .fixed {
     position: fixed;
+}
+
+.database {
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    border: 1px solid;
+    font-size: medium;
+    margin-top: 5em;
+    padding: 1em;
 }
 
 ul>li {
@@ -216,10 +230,15 @@ ul#items li:hover {
     padding: 10px;
 }
 
+.crud {
+    padding: 10px;
+    border: 1px solid;
+}
+
 .searchForm {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 6em;
+    padding-top: 10em;
     padding-bottom: 1em;
 }

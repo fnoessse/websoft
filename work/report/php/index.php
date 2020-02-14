@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Webprogrammering</title>
-</head>
+<?php
+session_start();
+$pageTitle = 'Webprogrammering';
+include_once 'view/head.php';
+?>
 
 <body>
     <br>
