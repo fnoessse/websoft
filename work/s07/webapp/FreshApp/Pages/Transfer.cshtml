@@ -1,0 +1,41 @@
+@page
+@model TransferModel
+@{
+    ViewData["Title"] = "Transfer";
+}
+
+<div>
+    <h1>MoneyTransfer</h1>
+</div>
+
+<div class="center">
+    
+<p></p>
+    
+
+
+@using(Html.BeginForm("transferForm", "accounts", FormMethod.Post)){
+    <p>Withdraw from account: 
+    @Html.DropDownListFor(
+        x => x.transfer.Withdraw,
+        new SelectList(Model.Items, "Number", "Number"), "Select Account"
+)
+</p>
+
+    <p>Deposit to account: 
+    @Html.DropDownListFor(
+        x => x.transfer.Deposit,
+        new SelectList(Model.Items, "Number", "Number"), "Select account"
+)
+</p>
+
+<p>Ammount to transfer: </p>
+<p>@Html.TextBoxFor(m => m.transfer.Ammount, new { @type = "number" })</p>
+
+
+<p>
+<input type="submit" name="Submit">
+</p>
+}
+
+</div>

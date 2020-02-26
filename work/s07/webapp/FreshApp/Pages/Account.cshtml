@@ -1,0 +1,53 @@
+@page
+@model AccountModel
+@{
+    ViewData["Title"] = "Account";
+}
+<div class="aParent">
+        <div>
+                <h1>Displaying all accounts</h1>
+            <table>   
+                <tr>
+                    <th>Account Number</th>
+                    <th>Balance</th>
+                    <th>Label</th>
+                    <th>Owner Id</th>
+                    </tr>
+                @foreach (var account in Model.Accounts){
+                <tr>
+                    <td>@account.Number</td>
+                    <td>@account.Balance</td>
+                    <td>@account.Label</td>
+                    <td>@account.Owner</td>
+                </tr>}
+            </table>
+       </div>
+
+<div class="center">
+    <h1>MoneyTransfer</h1>
+
+    @using(Html.BeginForm("transferForm", "accounts", FormMethod.Post)){
+
+    <p>Withdraw from account: 
+        @Html.DropDownListFor(
+            x => x.transfer.Withdraw,
+            new SelectList(Model.Accounts, "Number", "Number"), "Select Account")
+    </p>
+
+    <p>Deposit to account: 
+        @Html.DropDownListFor(
+            x => x.transfer.Deposit,
+            new SelectList(Model.Accounts, "Number", "Number"), "Select account")
+    </p>
+
+    <p>Ammount to transfer: </p>
+    <p>@Html.TextBoxFor(m => m.transfer.Ammount, new { @type = "number" })</p>
+
+    <p>
+    <input type="submit" name="Submit">
+    </p>
+}
+
+</div>
+
+</div>
