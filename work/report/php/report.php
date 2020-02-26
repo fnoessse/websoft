@@ -111,17 +111,79 @@ include_once 'view/head.php';
 
         <section>
             <h2>S05</h2>
-            <p>Here is the text for this section.</p>
+            <p>How do you feel about PHP as a programming language?</p>
+            
+            <p>I feel that php is a little bit messier than other programming languages. I do like how it is possible to utilize php together with html to create dynamic content. 
+                The way of factoring out header, footer and other content is very nice and quite simple. Perhaps it is my knowledge in php that is still limited or some framework needed but i had to 
+                go from php to js and back to php in order to achieve inline editing of html table which felt a bit complicated. But overall i am fairly satisfied with php. 
+                I would say that i prefer javascript over php in general but i do see how php could be prefered in some cases. Mostly for the convenience of factoring out content like header, menu, footer etc.
+            </p>
+           
+            <p>Can you compare PHP to other languages you know?</p>
+            <p>Overall php feels quite similar to several languages like java and javascript. Most negative part i would say is the difference in syntax and using $ signs everywhere. 
+                Quite annoying actually. But structurewise it feels like most other OOP languages. </p>
+            
+            <p>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</p>
+            
+            <p>I did as i always do with head first, trial and error playing around to get a feel for the language. I aimed for grade 5 and completed all tasks. I did however spend most time on the last part to get a html table with inline CRUD operations working. 
+                The result was quite satisfying even thouhg i utilized som javascript as a middle script to get the functionality i was going for.</p>
+            
+            <p>What is your TIL for this course section?</p>
+
+            <p>I learned a lot! I have used a little php earlier as object oriented when learning unit testing. 
+                This was however quite different from using php in web development. 
+                It was a nice experience learning to use php with html for creating dynamic content from a database. 
+                The most rewarding was again to factor out page content but also database connection and generating html tables from the received content. 
+            </p>
         </section>
 
         <section>
             <h2>S06</h2>
-            <p>Here is the text for this section.</p>
+            <p>What is your own opinion on popularity of programming languages and what are your thoughts of future popularity among programming languages?</p>
+            <p>Well, popularity of programming languages can indicate several things. How easy a language is to use, how well it performs or availability and quality of documentation. 
+                It does give some insight to which languages are developed further and has support for high trend functionality. As long as the trend for a language is going in the right direction it still comes down to personal preference or demand by companies. 
+            Knowing how several languages work is important as depending on what the service is supposed to do. HIghly popular languages and frameworks indicates easy and fast implementation of new products.</p>
+            <p>What will be your own choice for selecting future programming languages?</p>
+            <p>As i intend to start my own business when i graduate this question is highly relevant. Before this course i would have said java. Now i am moore interested in javascript and flutter framework as i intend to create software that will be used on both mobile and desktop envirioment. 
+                If flutter works as advertised this will have a large impact in the amount of implementation needed to support multiple plattforms. 
+            </p>
+            <p> Do your own investigation on https://trends.google.com (Links to an external site.) to customize your own comparison on programming languages (or frameworks) and elaborate on the results. </p>
+            <p>Well, the results are a bit questinable. Google of course says that python now is the biggest laguage in programming. But google createn python so there is a bit of cobflict in interest. 
+                Especially when you look at world wide demographics and all countries in the world is between 1-5 in search interest where as china is 100. Correct me if i'm wrong but google withdrew from china and should not have access to this type of data there. 
+            So whiether or not one should trust google on theese results is not easy to intepret. They also claim php to be moore popular than javascript which i have not seen before as all forums i've visited promote js/java before php. 
+            The results of this investigation sure made me think about my choice in language and so i will do moore research before i make my final choice. However, google trends will not be my main source for this choice.</p>
+            <p>If you were to recommend a language/framework/technology to your potential employer and your next large project, what would it be and how would you “sell it”?</p>
+            <p></p>
+            <p>What is your TIL for this course section?</p>
+            <p></p>
         </section>
 
         <section>
             <h2>S07</h2>
-            <p>Here is the text for this section.</p>
+            <p>Try to explain the platform .NET (C#, ASP.NET) to a skilled programmer, but newbie to this Microsoft technology.</p>
+            <p>.Net aims to offer a complete developement envirioment utilizing a mvc approach. It is a bit different compared to javascript, php and REST with nodejs. 
+                But .Net packs all parts into one plattform so that a developer can go all the way from OOP classes and functionality to REST api, Database connection to the frontend. 
+                It has quite many similarities to other web and OOP developement languages. It offers quite a few framworks and other tools so that everything could be done within .Net. 
+                In my personal opinion the .Net REST and MVC is a bit different and not always as obvious as other envirioments and takes a bit of time to get a hang of. 
+                It is a mixture of pleasant developement and some dissapointments in structure and documentation that is classic microsoft.
+            </p>
+            <p>Elaborate by comparing .NET technologies with the other technologies we learned during the course.</p>
+            <p>The OOP part in .Net with C# is quite similar to javascript, php and java with some differences such as using namespaces instead of packages that can be confusing at first. Mostly the OOP part is however very similar to other OOP languages. 
+                In my opinion the MVC for REST services is the biggest difference. Even though it has some similarities with android and nodejs it feel a bit more complicated. The structure of paths and controllers is a bit different in its structure and takes a while to figure out.
+                 Mostly the .Net documentation for REST was a horrible experience in camparison. In the end i did not implement it as the documentation or a variety of forums claimed to be best practise, instead i found a way to implement it that is more similar to the nodejs/express or java way of setting up a REST service.
+                 With that in mind it can handle this appoach as well which is nice even though it was difficult to find how it could be done. I gave up on how the documentation and forums described the approach as it felt as an overcomplicated approach. The html forms with Razor was the most satisfying part once i got a hang of it. 
+                 Utilizing Razor for this was a very nice way with good structure and an easy overview. 
+            </p>
+            <p>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</p>
+            <p>As always i jumped straight into solving the assignment researching solutions along the way as problems occured and looking a lot at the examples in order to figure out the general way of structuring diffrent parts. 
+                As always i aimed for a grade 5 and solves all the tasks in a quite satisfactory way. As i meantioned before my biggest issue was figuring out the mvc structure for REST and paths and probably implemented it in a way that does not completely follow the documentation guidelines.
+            In the end i am quite satisfied with the result as i spent a lot of time solving the final parts of the assignment.</p>
+            
+            <p>What is your TIL for this course section?</p>
+            <p>In the spirit of other TIL i learned a lot! I have not used .Net or C# at all before so a complete new overview of the .Net plattform. 
+                So everything from using C# and OOP to RESTFUL and Frontend I.E. a nice intro to fullstack developement in microsofts envirioment. Further moore i learned a bit about the mvc and razor framwork for creating forms and tables just like in other languages for this course. 
+                Some nice parts was working with Json and serializing to lists in C# and getting a initial insight as to how .Net structures works.
+            </p>
         </section>
 
         <section>
