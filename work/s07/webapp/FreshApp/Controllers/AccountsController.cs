@@ -55,5 +55,15 @@ namespace FreshApp.Controllers {
             }
         }
 
+        [HttpPost ("/account/transfer")]
+        public IActionResult PostTransfer([FromBody]Transfer data){
+            if(AccountService.transfer(data.Withdraw, data.Deposit, data.Ammount)){
+                return Ok();
+            }else{
+                return BadRequest();
+            }
+            
+        }
+
     }
 }

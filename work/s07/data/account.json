@@ -1,13 +1,13 @@
 [
   {
     "Number": 111111,
-    "Balance": 6,
+    "Balance": 2,
     "Label": "Salary",
     "Owner": 11
   },
   {
     "Number": 222222,
-    "Balance": 9,
+    "Balance": 12,
     "Label": "Savings",
     "Owner": 22
   },
@@ -19,13 +19,13 @@
   },
   {
     "Number": 42,
-    "Balance": 7,
+    "Balance": 6,
     "Label": "Secret",
     "Owner": 42
   },
   {
     "Number": 123,
-    "Balance": 7,
+    "Balance": 9,
     "Label": "Savings",
     "Owner": 22
   }
