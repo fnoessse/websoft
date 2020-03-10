@@ -188,7 +188,17 @@ include_once 'view/head.php';
 
         <section>
             <h2>S08</h2>
-            <p>Here is the text for this section.</p>
+            <p>Members: Isak Zayane, Oscar Odelstav, Simon Westerdahl and Fredrik Lémon Larsson. 
+The data collected: <a href="https://drive.google.com/file/d/1_wnIwN9Sp8wWEU1myFZWR4r_xUvVyk82/view">Data</a>
+
+The pages compared are GitLab, which is hosted on Fredrik's server, Androids Developer page, and Wikipedia.  
+
+Overall Wikipedia has the best time on each time measure. If you compare AndroidDev and Wikipedia, which both is for documentation but AndroidDev finished 100 times slower than Wikipedia. One could argue that AndroidDev should apply a wiki instead of their layout, to get better overall speed time. The AndroidDev is also about 10 times slower on first CPU idle time, so their page will not be as quickly responsive as wikipedia either. 
+
+We chose Fredrik’s GitLab page just to see its response time for curiosity. Since it’s hosted on a server in Fredriks garage its surprising that it finishes 10 times faster than AndroidDev. Since AndroidDev got established business servers in comparison to Fredriks server. However measuring GitLab we only measured the first login page and not further into the site. When logged in you might see slower speed since there is more security as you log in. The GitLab and Android Devs First Input Delay (FID) are 1.78  and 0.59  seconds respectively. Going above 2-3 seconds can be too long for a user to have a pleasant experience, whilst Wikipedia's FID is 0.05, which is splendid! 
+
+An important metric in the performance section is Time to Interactive. Wikipedia, having the best time at 0.7 seconds while GitLab and AndroidDe have 8.4 and 14.5 seconds respectively. Having 14.5 seconds on TTI is not good at all and users might end up using other sources than AndroidDev while for example looking up guides for Android Studio. 
+</p>
         </section>
 
         <section>
