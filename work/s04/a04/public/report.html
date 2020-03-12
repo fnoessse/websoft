@@ -220,7 +220,27 @@
 
         <section>
             <h2>S09</h2>
-            <p>Here is the text for this section.</p>
+            <p>1. Injections. I have spent quite some time the last few years thinking about injections and how to make avoid having this vulnerability when developing. In our project i have implemented a login that i think is secure against injections.
+                Firstly by using email instead of username with a check to make sure the input is a email. secondly only one user is selected when identified in the database. The entire implementation is done with the passport library that has built in
+                checks. Alongside this i am using an envirioment variable enckosed in an envirioment file with a secret session key to avoid (2) Broken authentication. (3) Broken access control, in our project we utilize a function that ckecks whiether
+                or not a user is logged in and uses a redirect depending on the login status. This function is placed in every route that requires a user to be logged in in order to be redirected to the path. As a secondary check we placed a function
+                that requires a user to not be logged in in order to be alowed access to the login site so that a logged in user can not try to log in again. This works great but it also makes me think about how secure this is. I do beleive that it is
+                correctly implemented as the logged in status is stored by the envirioment variable which in its turn is secured by a sha512-bit hash. along this on logout the session key is destroyed. I tried to do several injections targeting our login
+                without success and thereby i think i managed to make it quite secure.
+
+            </p>
+
+            <p>My own guidelines to create secure web applications. This is not very easy but, look at OWASP top 10 security risks and try to not do them. Look at what libraries are commonly used and trusted. If you dont know if a library is secure then
+                google that shit. Actually for every function that you are not sure about, research it and see what communities consider best practise. Read documentation! A good thing could be to utilize tools like detectify to test your web pag efor
+                vulnerabilities. If you intend to publish your site then most cloud providers like digitalocean has a lot of guides for what they recommend. As i do not think we have a lot of knowledge on the web security topic all frameworks, libraries
+                or scripts for that matter should be researched. And lastly if your webpage or application will handle any sensitive information, find someone that knows security better than yourself and ask for advise. Or pay them to review your code.
+                If you dont have the money, join a community that can review it.
+            </p>
+            <p>What is your TIL for this course section?</p>
+            <p>I knew e few of the top security risks, other i did not. Which i now know about. Can't really say i know how to avoid them but knowing about them i will be able to research them when the time comes that i will create something that will be
+                in danger of creating these security risks. The video series of common security risks were really good. Something i learned that really stuck was how one can recreate scripts and use them against other users. I really want to know how
+                this can be avoided and so i will eventually look in to this. Using scripts without checking if they have known security issues is something i will not do in the future. This was a relly good thing to know about.
+            </p>
         </section>
 
         <section>
